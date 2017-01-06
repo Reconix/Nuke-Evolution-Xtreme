@@ -32,6 +32,24 @@
 	  Arcade                                   v3.0.2       05/29/2009
  ************************************************************************/
 
+/*
+ *----------------------
+ * TIMEZONE
+ *----------------------
+ *
+ * If timezone has not been set, give it a default
+ *
+ */
+if (ini_get('date.timezone') == ''
+    && function_exists('date_default_timezone_set')
+) {
+    if (function_exists('date_default_timezone_get')) {
+        date_default_timezone_set(@date_default_timezone_get());
+    } else {
+        date_default_timezone_set('GMT');
+    }
+}
+ 
 define('HOME_FILE', true);
 define('MODULE_FILE', true);
 $_SERVER['PHP_SELF'] = 'modules.php';

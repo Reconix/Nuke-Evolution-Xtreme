@@ -21,6 +21,24 @@
       Advanced Security Extension              v1.0.0       12/21/2005
  ************************************************************************/
 
+/*
+ *----------------------
+ * TIMEZONE
+ *----------------------
+ *
+ * If timezone has not been set, give it a default
+ *
+ */
+if (ini_get('date.timezone') == ''
+    && function_exists('date_default_timezone_set')
+) {
+    if (function_exists('date_default_timezone_get')) {
+        date_default_timezone_set(@date_default_timezone_get());
+    } else {
+        date_default_timezone_set('GMT');
+    }
+} 
+
 if(defined('NO_SECURITY')) return;
 
 define_once("NUKESENTINEL_IS_LOADED", true);
