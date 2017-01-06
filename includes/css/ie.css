@@ -1,0 +1,15 @@
+/****************************************************************
+ * Internet Explorer Fix
+ * 
+ * Fixes the mis-aligned text values in TD elements when viewing
+ * Evolution Xtreme 2.0.9a and greater
+ ****************************************************************/
+
+td {
+	text-align: left;
+	overflow: hidden;
+}
+
+span.postbody {
+	text-align: left;
+}

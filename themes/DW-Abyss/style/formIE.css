@@ -1,0 +1,29 @@
+/* Fancy form styles for IE */
+
+input, textarea, select {
+border-top-width : 1px; 
+border-right-width : 1px; 
+border-bottom-width : 1px; 
+border-left-width : 1px;  
+}
+
+input { text-indent : 2px; }
+
+input.button {
+border-top-width : 1px; 
+border-right-width : 1px; 
+border-bottom-width : 1px; 
+border-left-width : 1px;  
+}
+
+.postbody { line-height: 18px}
+
+BODY {
+scrollbar-3dlight-color: #5c8fa6;
+scrollbar-arrow-color: #5c8fa6;
+scrollbar-darkshadow-color: #000000;
+scrollbar-face-color: #ffffff;
+scrollbar-highlight-color: #5c8fa6;
+scrollbar-shadow-color: #000000;
+scrollbar-track-color: #ffffff; 
+}

@@ -1,0 +1,632 @@
+/* ChromoWB Theme Style.css */
+
+bottom{
+Z-INDEX: 2;
+left: 0px;
+width: 100%;
+position: absolute;
+top: 594px;
+height: 30px;
+text-align: center;}
+
+a:link{
+font-size: 11px;
+color: #cb0000;
+font-family: Verdana,Geneva,Arial,Helvetica,sans-serif;
+text-decoration: none;}
+
+a:visited{
+font-size: 11px;
+color: #cb0000;
+font-family: Verdana,Geneva,Arial,Helvetica,sans-serif;
+text-decoration: none;}
+
+a:active{
+font-size: 11px;
+color: #cb0000;
+font-family: Verdana,Geneva,Arial,Helvetica,sans-serif;
+text-decoration: none;}
+
+a:hover{
+font-size: 11px;
+color: #b95b5b;
+font-family: Verdana,Geneva,Arial,Helvetica,sans-serif;
+text-decoration: none;}
+
+body{
+margin: 0px;
+font-size: 12px;
+cursor: default;
+color: #b95b5b;
+background-color: #000000;
+font-family: Verdana,Geneva,Arial,Helvetica,sans-serif;
+text-decoration: none;}
+
+p{
+font-size: 12px;
+background: inherit;
+color: #cb0000;
+line-height: 1.4;
+font-family: Verdana,Geneva,Arial,Helvetica,sans-serif;
+text-decoration: none;}
+
+/* Changes colors for: Main Menu Block, Table Box, Story Box */
+table{
+font-size: 11px;
+color: #ededed;
+font-family: Verdana,Geneva,Arial,Helvetica,sans-serif;
+text-decoration: none;}
+
+/* Changes color for: Story Box - Post By Line */
+td.content{
+font-size:12px;
+color: #ededed;
+text-decoration: none;
+font-family: Verdana,Geneva,Arial,Helvetica,sans-serif;}
+
+td.extra {
+border-top : 0px solid #282828;
+border-bottom : 0px solid #505050;
+border-left : 0px solid #282828;
+border-right : 1px solid #505050;
+}
+td.extras{
+background: #F0F0F0;
+color: inherit;
+border-right: #707070 1px solid;
+border-top: #FFFFFF 1px solid;
+border-bottom: #707070 1px solid;
+border-left: #FFFFFF 1px solid;}
+
+TEXTAREA {
+background-image: url(../../../themes/ChromoWB/images/input.gif);
+background-repeat: repeat-x;
+background-color : #2d2f31;
+BORDER-TOP: #2A2A2A 1px solid; 
+BORDER-BOTTOM: #8A8A8A 1px solid; 
+BORDER-LEFT: #2A2A2A 1px solid; 
+BORDER-RIGHT: #8A8A8A 1px solid;
+font-size: 11px;
+color: #b95b5b;}
+
+P {
+FONT-SIZE: 11px; 
+COLOR: #c3c3c3; 
+LINE-HEIGHT: 1.4; 
+FONT-FAMILY:  arial, helvetica, verdana, sans-serif; 
+TEXT-DECORATION: none;}
+
+hr {
+border-top: 1px solid #303030;
+border-bottom: 1px solid #787878;
+height: 2px;
+width: 100%;}
+
+UL {
+LIST-STYLE-TYPE: square;}
+.center {
+TEXT-ALIGN: center;}
+.justify {
+TEXT-ALIGN: justify;}
+.right {
+TEXT-ALIGN: right;}
+
+H1 {
+FONT-WEIGHT: bold; 
+FONT-SIZE: 11px; 
+COLOR: #fcfcfc; 
+FONT-FAMILY:  arial, helvetica, verdana, sans-serif; 
+LETTER-SPACING: 0px; 
+TEXT-DECORATION: none;
+}
+.heading {
+FONT-WEIGHT: bold; 
+FONT-SIZE: 11px; 
+COLOR: #ffffff; 
+FONT-FAMILY: Tahoma; 
+LETTER-SPACING: 0px; 
+TEXT-DECORATION: none;
+}
+.heading1 {
+FONT-WEIGHT: bold; 
+FONT-SIZE: 11px; 
+COLOR: #ffffff; 
+FONT-FAMILY: Tahoma; 
+LETTER-SPACING: 0px; 
+TEXT-DECORATION: none;}
+
+.blocktitle {
+FONT-WEIGHT: bold;
+FONT-SIZE: 11px;
+COLOR: #b95b5b;
+FONT-FAMILY: arial;
+LETTER-SPACING: 0px;
+TEXT-DECORATION: none;}
+
+.storytitle {
+font-weight : bold;
+font-size : 11px;
+color : #b95b5b;
+font-family : arial;
+letter-spacing : 0px;
+text-decoration : none;}
+
+td.story{
+background: #F0F0F0;
+color: #cb0000;
+font-size:11px;
+font-family: Verdana,Geneva,Arial,Helvetica,sans-serif;
+border-right: #707070 1px solid;
+border-top: #FFFFFF 1px solid;
+border-bottom: #707070 1px solid;
+border-left: #FFFFFF 1px solid;}
+
+SELECT {
+color:#ffffff;
+font-size: 11px;
+font-family: Arial,Helvetica,sans-serif;
+background-color : #1c1d1f;
+BORDER-TOP: #2A2A2A 1px solid; 
+BORDER-BOTTOM: #8A8A8A 1px solid; 
+BORDER-LEFT: #2A2A2A 1px solid; 
+BORDER-RIGHT: #8A8A8A 1px solid;}
+
+/* Login & Username Links */
+.hnav	         { font-size: 10px; font-family: arial; color: #cb0000; text-decoration: none;}
+td.hnav	   { font-size: 10px; font-family: arial; color: #cb0000; text-decoration: none;}
+a.hnav	   { font-size: 10px; color: #cb0000; text-decoration: none;}
+a.hnav:link    { font-size: 10px; text-decoration: none; color : #cb0000; }
+a.hnav:visited { font-size: 10px; text-decoration: none; color : #cb0000; }
+a.hnav:hover   { font-size: 10px; color : #b95b5b; text-decoration: none;}
+
+/* Footer Scrolling Copyright Text */
+.ftrt { font-size : 9px; color : #ffffff; }
+.ftrtmed { font-size : 9px; }
+.ftrtsmall { font-size : 9px; }
+.ftrt,.ftrmed,.ftrtsmall { color : #ffffff; }
+a.ftrt,a.genmed,a.ftrtsmall { color: #ffffff; text-decoration: none; }
+a.ftrt:hover,a.ftrtmed:hover,a.ftrtsmall:hover { color: #0188ff; text-decoration: none; }
+
+/* Copyright and bottom info */
+.copyright { font-size: 10px; font-family: Verdana, Arial, Helvetica, sans-serif; color: #cb0000;}
+a.copyright { font-size: 10px; color: #cb0000; text-decoration: none; font-family: Verdana, Arial, Helvetica, sans-serif;}
+a.copyright:link { font-size: 10px; color: #cb0000; text-decoration: NONE; font-family: Verdana, Arial, Helvetica, sans-serif;}
+a.copyright:active { font-size: 10px; color: #cb0000; text-decoration: NONE; font-family: Verdana, Arial, Helvetica, sans-serif;}
+a.copyright:visited { font-size: 10px; color: #cb0000; text-decoration: NONE; font-family: Verdana, Arial, Helvetica, sans-serif;}
+a.copyright:hover { font-size: 10px; color: #b95b5b; text-decoration: NONE; font-family: Verdana, Arial, Helvetica, sans-serif;}
+
+
+input {
+background-image: url(../../../themes/ChromoWB/images/input.gif);
+background-repeat: repeat-x;
+background-color : #2d2f31;
+BORDER-TOP: #2A2A2A 1px solid; 
+BORDER-BOTTOM: #8A8A8A 1px solid; 
+BORDER-LEFT: #2A2A2A 1px solid; 
+BORDER-RIGHT: #8A8A8A 1px solid;
+font-size: 11px;
+color: #cb0000;
+}
+input.noborder {
+color:#ffffff;
+font:11px Arial,Helvetica,sans-serif;
+BORDER-TOP: #ffffff 0px solid; 
+BORDER-BOTTOM: #ffffff 0px solid; 
+BORDER-LEFT: #ffffff 0px solid; 
+BORDER-RIGHT: #ffffff 0px solid;}
+
+
+/* This is the border line & background colour round the entire page */
+.bodyline	{ 
+background-color: #5c5c5c; 
+border:0px solid; 
+border-color:#000000;}
+
+.tablein {
+BORDER-TOP: #4F4F4F 1px solid; 
+BORDER-BOTTOM: #898989 1px solid; 
+BORDER-LEFT: #4F4F4F 1px solid; 
+BORDER-RIGHT: #898989 1px solid;}
+
+/* This is the outline round the main forum tables */
+.forumline	{ 
+background: #636363;
+BORDER-TOP: #282828 0px solid; 
+BORDER-BOTTOM: #424258 0px solid; 
+BORDER-LEFT: #282828 0px solid; 
+BORDER-RIGHT: #424258 0px solid;}
+
+.forumline2	{ 
+height: 25px;
+background-image: url(../../../themes/ChromoWB/images/bar2.gif);
+background-repeat: repeat-x;
+background-color : #1c1d1f;
+BORDER-TOP: #282828 0px solid; 
+BORDER-BOTTOM: #282828 1px solid; 
+BORDER-LEFT: #282828 1px solid; 
+BORDER-RIGHT: #282828 1px solid;}
+
+/* Main table cell colours and backgrounds */
+td.row1	{
+background-image: url(../../../themes/ChromoWB/images/bar.gif);
+background-repeat: repeat-x;
+background-color : #090b0a;
+BORDER-TOP: #282828 0px solid; 
+BORDER-BOTTOM: #282828 1px solid; 
+BORDER-LEFT: #282828 1px solid; 
+BORDER-RIGHT: #282828 1px solid;
+padding-top: 7px;}
+
+/* InLineAd Table Row Background Color */
+td.inlinead	{ 
+background-image: url(../../../themes/ChromoWB/images/bar.gif);
+background-repeat: repeat-x;
+background-color : #090b0a;
+BORDER-TOP: #282828 0px solid; 
+BORDER-BOTTOM: #282828 1px solid; 
+BORDER-LEFT: #282828 1px solid; 
+BORDER-RIGHT: #282828 1px solid;}
+
+/* InLineAd Table Row Background Color */
+td.inlineadtitle	{ 
+background-image: url(../../../themes/ChromoWB/images/bar.gif);
+background-repeat: repeat-x;
+background-color : #090b0a;
+BORDER-TOP: #282828 0px solid; 
+BORDER-BOTTOM: #282828 1px solid; 
+BORDER-LEFT: #282828 1px solid; 
+BORDER-RIGHT: #282828 1px solid;}
+
+td.row1pic	{
+height: 25px;
+background-image: url(../../../themes/ChromoWB/images/bar2.gif);
+background-repeat: repeat-x;
+background-color : #1c1d1f;
+BORDER-TOP: #282828 0px solid; 
+BORDER-BOTTOM: #282828 1px solid; 
+BORDER-LEFT: #282828 1px solid; 
+BORDER-RIGHT: #282828 1px solid;}
+
+td.attachheader	{
+height: 25px;
+background-image: url(../../../themes/ChromoWB/images/bar2.gif);
+background-repeat: repeat-x;
+background-color : #1c1d1f;
+BORDER-TOP: #282828 0px solid; 
+BORDER-BOTTOM: #282828 1px solid; 
+BORDER-LEFT: #282828 1px solid; 
+BORDER-RIGHT: #282828 1px solid;}
+
+td.row1cell	{
+background-color : #1c1d1f;
+BORDER-TOP: #282828 0px solid; 
+BORDER-BOTTOM: #282828 1px solid; 
+BORDER-LEFT: #282828 1px solid; 
+BORDER-RIGHT: #282828 1px solid;}
+
+td.row1rt	{
+background-image: url(../../../themes/ChromoWB/images/bar.gif);
+background-repeat: repeat-x;
+background-color : #090b0a;
+BORDER-TOP: #282828 0px solid; 
+BORDER-BOTTOM: #282828 1px solid; 
+BORDER-LEFT: #282828 1px solid; 
+BORDER-RIGHT: #282828 0px solid;}
+
+td.row1lt	{
+background-image: url(../../../themes/ChromoWB/images/bar.gif);
+background-repeat: repeat-x;
+background-color : #090b0a;
+BORDER-TOP: #282828 0px solid; 
+BORDER-BOTTOM: #282828 1px solid; 
+BORDER-LEFT: #282828 1px solid; 
+BORDER-RIGHT: #282828 0px solid;}
+
+td.row1d	{
+background-image: url(../../../themes/ChromoWB/images/bar.gif);
+background-repeat: repeat-x;
+background-color : #090b0a;
+BORDER-TOP: #282828 0px solid; 
+BORDER-BOTTOM: #282828 0px solid; 
+BORDER-LEFT: #282828 0px solid; 
+BORDER-RIGHT: #282828 1px solid;}
+
+td.row1u	{
+background-color : #090b0a;
+BORDER-TOP: #282828 0px solid; 
+BORDER-BOTTOM: #282828 1px solid; 
+BORDER-LEFT: #282828 0px solid; 
+BORDER-RIGHT: #282828 1px solid;}
+
+td.row2u	{
+background-color : #090b0a;
+BORDER-TOP: #282828 0px solid; 
+BORDER-BOTTOM: #282828 1px solid; 
+BORDER-LEFT: #282828 1px solid; 
+BORDER-RIGHT: #282828 1px solid;}
+
+td.row2	{
+background-image: url(../../../themes/ChromoWB/images/bar.gif);
+background-repeat: repeat-x;
+background-color : #090b0a;
+BORDER-TOP: #282828 0px solid; 
+BORDER-BOTTOM: #282828 1px solid; 
+BORDER-LEFT: #282828 1px solid; 
+BORDER-RIGHT: #282828 1px solid;
+padding-top: 7px;}
+
+td.row3	{
+background-image: url(../../../themes/ChromoWB/images/bar.gif);
+background-repeat: repeat-x;
+background-color : #090b0a;
+BORDER-TOP: #282828 0px solid; 
+BORDER-BOTTOM: #282828 1px solid; 
+BORDER-LEFT: #282828 1px solid; 
+BORDER-RIGHT: #282828 1px solid;
+padding-top: 7px;}
+
+/* Category Row Right */
+td.rowpic {
+background-image: url(../../../themes/ChromoWB/images/catbar.gif);
+background-repeat: repeat-x;
+background-color : #242424;
+BORDER-TOP: #282828 1px solid; 
+BORDER-BOTTOM: #282828 1px solid; 
+BORDER-LEFT: #282828 1px solid; 
+BORDER-RIGHT: #282828 1px solid;}
+
+td.pic {
+color: #ffffff; 
+font-size: 11px; 
+font-weight : bold;
+height: 25px;
+background-image: url(../../../themes/ChromoWB/images/bar3.gif);
+background-repeat: repeat-x;
+background-color : #1c1d1f;
+BORDER-TOP: #282828 1px solid; 
+BORDER-BOTTOM: #282828 1px solid; 
+BORDER-LEFT: #282828 1px solid; 
+BORDER-RIGHT: #282828 1px solid;}
+
+td.piclt {
+color: #ffffff; 
+font-size: 11px; 
+font-weight : bold;
+height: 25px;
+background-image: url(../../../themes/ChromoWB/images/bar3.gif);
+background-repeat: repeat-x;
+background-color : #1c1d1f;
+BORDER-TOP: #282828 1px solid; 
+BORDER-BOTTOM: #282828 1px solid; 
+BORDER-LEFT: #282828 1px solid; 
+BORDER-RIGHT: #282828 0px solid;}
+
+td.picrt {
+color: #ffffff; 
+font-size: 11px; 
+font-weight : bold;
+height: 25px;
+background-image: url(../../../themes/ChromoWB/images/bar3.gif);
+background-repeat: repeat-x;
+background-color : #1c1d1f;
+BORDER-TOP: #282828 1px solid; 
+BORDER-BOTTOM: #282828 1px solid; 
+BORDER-LEFT: #282828 0px solid; 
+BORDER-RIGHT: #282828 1px solid;}
+
+/* Recent Topics Row*/
+th {
+color: #ffffff; 
+font-size: 11px; 
+font-weight : bold;
+height: 25px;
+background-image: url(../../../themes/ChromoWB/images/bar2.gif);
+background-repeat: repeat-x;
+background-color : #1C1D1F;
+BORDER-TOP: #282828 0px solid; 
+BORDER-BOTTOM: #282828 1px solid; 
+BORDER-LEFT: #282828 1px solid; 
+BORDER-RIGHT: #282828 1px solid;}
+
+th.bar	{
+color: #ffffff; 
+font-size: 11px; 
+font-weight : bold;
+height: 25px;
+background-image: url(../../../themes/ChromoWB/images/bar.gif);
+background-repeat: repeat-x;
+background-color : #090b0a;
+BORDER-TOP: #282828 0px solid; 
+BORDER-BOTTOM: #282828 1px solid; 
+BORDER-LEFT: #282828 1px solid; 
+BORDER-RIGHT: #282828 1px solid;}
+
+/* Category Row Left */
+td.cat,td.catHead,td.catSides,td.catLeft,td.catRight,td.catBottom {
+background-image: url(../../../themes/ChromoWB/images/catbar.gif);
+background-repeat: repeat-x;
+background-color : #242424;
+BORDER-TOP: #282828 1px solid; 
+BORDER-BOTTOM: #282828 1px solid; 
+BORDER-LEFT: #282828 1px solid; 
+BORDER-RIGHT: #282828 1px solid;
+height: 25px;}
+
+/*
+  Setting additional nice inner borders for the main table cells.
+  The names indicate which sides the border will be on.
+  Don't worry if you don't understand this, just ignore it :-)
+*/
+
+/* Recent Topics, Row1, Viewforum_Body.tpl */
+th.thHead,th.thSides,th.thTop,th.thLeft,th.thRight,th.thBottom,th.thCornerL,th.thCornerR {
+font-weight: bold; 
+height: 25px;
+background-color : #101e31;
+BORDER-TOP: #282828 1px solid; 
+BORDER-BOTTOM: #282828 1px solid; 
+BORDER-LEFT: #282828 1px solid; 
+BORDER-RIGHT: #282828 1px solid;}
+
+/* Forum_Body.tpl - Last Column */
+td.row3Right,td.spaceRow {
+height: 25px;
+background-image: url(../../../themes/ChromoWB/images/bar.gif);
+background-repeat: repeat-x;
+background-color : #090b0a;
+BORDER-TOP: #282828 1px solid; 
+BORDER-BOTTOM: #282828 1px solid; 
+BORDER-LEFT: #282828 1px solid; 
+BORDER-RIGHT: #282828 1px solid;}
+
+
+/* The largest text used in the index page title and toptic title etc. */
+.maintitle,h1,h2	{
+font-weight: bold; font-size: 16px; font-family: Arial, Helvetica, sans-serif;
+text-decoration: none; line-height : 120%; color : #cb0000;}
+
+a.maintitle:link    { text-decoration: none; color : #cb0000; font-size: 16px; }
+a.maintitle:visited { text-decoration: none; color : #cb0000; font-size: 16px; }
+a.maintitle:hover   { text-decoration: NONE; color : #b95b5b; font-size: 16px; }
+
+/* General text */
+.gen { font-size : 11px; color : #cb0000; }
+.genmed { font-size : 11px; }
+.gensmall { font-size : 10px; }
+.gen,.genmed,.gensmall { color : #cb0000; }
+a.gen,a.genmed,a.gensmall { color: #cb0000; text-decoration: none; }
+a.gen:hover,a.genmed:hover,a.gensmall:hover { color: #b95b5b; text-decoration: none; }
+
+/* The register, login, search etc links at the top of the page */
+.mainmenu	     { font-size : 11px; color : #cb0000;}
+a.mainmenu	     { text-decoration: none; color : #cb0000;}
+a.mainmenu:hover { text-decoration: none; color : #b95b5b;}
+
+/* Forum Category */
+.cattitle	     { font-weight: bold; font-size: 11px ; letter-spacing: 0px; color : #b95b5b;}
+a.cattitle	     { text-decoration: none; color : #b95b5b; }
+a.cattitle:hover { text-decoration: none; color : #ffffff;}
+
+/* Who is Online and Birthday Titles */
+.cattitle2	     { font-weight: bold; font-size: 11px ; letter-spacing: 0px; color : #ffffff;}
+a.cattitle2	     { text-decoration: none; color : #ffffff; }
+a.cattitle2:hover { text-decoration: none; color : #b95b5b;}
+
+/* Forum title: Text and link to the forums used in: index.php */
+.forumlink	      { font-weight: bold; font-size: 11px; color : #ffffff; }
+a.forumlink 	{ text-decoration: none; color : #ffffff; }
+a.forumlink:hover { text-decoration: NONE; color : #b95b5b; }
+
+.fheader          { font-size : 12px; font-weight : bold; font-family : Verdana, Geneva, Arial, Helvetica, sans-serif; text-decoration : none; }
+a.fheader         { background : inherit; color : #cb0000; }
+a.fheader:visited { background : inherit; color : #cb0000; }
+a.fheader:hover   { background : inherit; color : #b95b5b; }
+
+/* Used for the navigation text, (Page 1,2,3 etc) and the navigation bar when in a forum */
+.nav			{ font-weight: bold; font-size: 11px; color : #ffffff;}
+a.nav			{ text-decoration: none; color : #ffffff; }
+a.nav:hover		{ text-decoration: NONE; color : #b95b5b;}
+
+/* titles for the topics: could specify viewed link color too */
+.topictitle { font-weight: bold; font-size: 11px; color : #ffffff; }
+a.topictitle:link { text-decoration: none; color : #ffffff; }
+a.topictitle:visited { text-decoration: none; color : #ffffff; }
+a.topictitle:hover { text-decoration: NONE; color : #b95b5b; }
+
+/* Name of poster in viewmsg.php and viewtopic.php and other places */
+.name { font-size : 11px; color : #ffffff;}
+
+/* Location, number of posts, post date etc */
+.postdetails { font-size : 10px; color : #cb0000; }
+
+/* The content of the posts (body of text) */
+.postbody { font-size : 11px; color : #ededed; }
+a.postlink:link	{ text-decoration: none; color : #ededed; }
+a.postlink:visited { text-decoration: none; color : #ededed; }
+a.postlink:hover { text-decoration: underline; color : #b95b5b; }
+
+
+.quote {
+background-image: url(../../../themes/ChromoWB/images/input.gif);
+background-repeat: repeat-x;
+background-color : #2d2f31;
+BORDER-TOP: #2A2A2A 1px solid; 
+BORDER-BOTTOM: #8A8A8A 1px solid; 
+BORDER-LEFT: #2A2A2A 1px solid; 
+BORDER-RIGHT: #8A8A8A 1px solid;
+font-size: 11px;
+color: #ffc0c0;}
+
+.code {
+background-image: url(../../../themes/ChromoWB/images/input.gif);
+background-repeat: repeat-x;
+background-color : #2d2f31;
+BORDER-TOP: #2A2A2A 1px solid; 
+BORDER-BOTTOM: #8A8A8A 1px solid; 
+BORDER-LEFT: #2A2A2A 1px solid; 
+BORDER-RIGHT: #8A8A8A 1px solid;
+font-size: 11px;
+color: #fad954;}
+
+input.sub {
+color:#c3c3c3;
+font-size:11px;
+font-family: Arial,Helvetica,sans-serif;
+background-image: url(../../../themes/ChromoWB/images/input.gif);
+background-repeat: repeat-x;
+background-color : #2d2f31;
+BORDER-TOP: #4B4B4B 0px solid; 
+BORDER-BOTTOM: #282828 1px solid; 
+BORDER-LEFT: #4B4B4B 1px solid; 
+BORDER-RIGHT: #282828 1px solid;}
+
+/* The buttons used for bbCode styling in message post */
+input.button {
+color:#c3c3c3;
+font-size:11px;
+font-family: Arial,Helvetica,sans-serif;
+background-image: url(../../../themes/ChromoWB/images/bar.gif);
+background-repeat: repeat-x;
+background-color : #090b0a;
+BORDER-TOP: #4B4B4B 0px solid; 
+BORDER-BOTTOM: #282828 1px solid; 
+BORDER-LEFT: #4B4B4B 1px solid;
+BORDER-RIGHT: #282828 1px solid;}
+
+/* The main submit button option */
+input.mainoption {
+color:#c3c3c3;
+font-size:11px;
+font-family: Arial,Helvetica,sans-serif;
+background-image: url(../../../themes/ChromoWB/images/bar2.gif);
+background-repeat: repeat-x;
+background-color : #2d2f31;
+BORDER-TOP: #4B4B4B 0px solid; 
+BORDER-BOTTOM: #282828 1px solid; 
+BORDER-LEFT: #4B4B4B 1px solid; 
+BORDER-RIGHT: #282828 1px solid;}
+
+/* None-bold submit button */
+input.liteoption {
+color:#c3c3c3;
+font-size:11px;
+font-family: Arial,Helvetica,sans-serif;
+background-image: url(../../../themes/ChromoWB/images/bar2.gif);
+background-repeat: repeat-x;
+background-color : #2d2f31;
+BORDER-TOP: #4B4B4B 0px solid; 
+BORDER-BOTTOM: #282828 1px solid; 
+BORDER-LEFT: #4B4B4B 1px solid; 
+BORDER-RIGHT: #282828 1px solid;}
+
+/* This is the line in the posting page which shows the rollover
+  help line. This is actually a text box, but if set to be the same
+  colour as the background no one will know ;)*/
+.helpline {
+background-color : #0f1211;
+BORDER-TOP: #2A2A2A 1px solid; 
+BORDER-BOTTOM: #8A8A8A 1px solid; 
+BORDER-LEFT: #2A2A2A 1px solid; 
+BORDER-RIGHT: #8A8A8A 1px solid;
+font-size: 11px;
+color: #b95b5b;}

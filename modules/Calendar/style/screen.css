@@ -1,0 +1,149 @@
+/*=======================================================================
+ Nuke-Evolution Basic: Enhanced PHP-Nuke Web Portal System
+ =======================================================================*/
+
+/* $Id: screen.css,v 20.8 2004/01/10 11:01:25 EllselAn Exp $ */
+
+/************************************************************************
+   Nuke-Evolution: Nuke-Evolution Credits Module
+   ============================================
+   Copyright (c) 2005 by The Nuke-Evolution Team
+
+   Filename      : screen.css
+   Author        : LombudXa (Rodmar) (www.evolved-Systems.net)
+   Version       : 2.0.0
+   Date          : 09/04/2005 (mm-dd-yyyy)
+
+   Description   : Credits module For Nuke-Evolution.
+************************************************************************/
+
+/************************************************************************/
+/* KalenderMx v1.4                                                      */
+/* ===================                                                  */
+/*  Calendar Module for vkpMx 2.x / pragmaMx & phpNuke 5.5-7.6          */
+/*  Copyright (c) 2004 by A.Ellsel (kalender@pragmamx.org)              */
+/*  http://www.pragmamx.org & http://www.shiba-design.de                */
+/* -------------------------------------------------------------------- */
+/* KalenderMx is based on EventCalendar 2.0                             */
+/*  Copyright (c) 2001 Originally by Rob Sutton                         */
+/*  http://smart.xnettech.net (Nuke Site)                               */
+/*  Development continued by Aleks A.-Lessmann                          */
+/* Included some ideas and changes by:                                  */
+/*  flobee, bulli-frank, kicks, kochloeffel, FrankySz, Jubilee          */
+/* -------------------------------------------------------------------- */
+/* This program is free software. You can redistribute it and/or modify */
+/* it under the terms of the GNU General Public License as published by */
+/* the Free Software Foundation; either version 2 or a newer version.   */
+/************************************************************************/
+
+BODY {
+    background-color: White;
+    margin-left: 20px;
+    margin-right: 40px;
+    margin-bottom: 60px;
+    color: black;
+}
+
+BODY, P, FONT, TD, TH, DIV, SPAN {
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    FONT-size: 15px;
+    max-width: 580px;
+}
+
+#printform {
+    /* display: block; */
+    visibility: visible;
+}
+
+HR {
+    height: 1px;
+    color: #DDDDDD;
+}
+TH {
+    FONT-size: 15px;
+    FONT-WEIGHT: bold;
+}
+H1, H2, H3, H4, H5 {
+    FONT-SIZE: 20px;
+    FONT-WEIGHT: bold;
+}
+IMG {
+    border: none;
+}
+A:link {
+    color: black;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+
+A:visited {
+    color: black;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.opentable {
+    border: 1px solid #DDDDDD;
+    padding: 5px;
+}
+
+
+.title {
+    FONT-SIZE: 15px;
+    FONT-WEIGHT: bold;
+}
+.content {
+    FONT-SIZE: 15px;
+}
+.option {
+    FONT-SIZE: 15px;
+    FONT-WEIGHT: bold;
+}
+.tiny {
+    FONT-SIZE: 11px;
+}
+.footmsg {
+    display: none;
+    visibility: hidden;
+}
+
+.tbmonthview {
+    border: 1px solid #DDDDDD;
+    background-color: White;
+}
+
+.thmonthview {
+    border: 1px solid #DDDDDD;
+    background-color: #DDDDDD;
+}
+.tdmonthview1 {
+    border: 1px solid #DDDDDD;
+    background-color: White;
+}
+
+.tdmonthview2 {
+    border: 1px solid #DDDDDD;
+    background-color: #EAEAEA;
+}
+
+.tblistview {
+    border: 1px solid #DDDDDD;
+    background-color: White;
+    border-top: none;
+}
+
+.tdlistview {
+    background-color: White;
+    border-top: 1px solid #DDDDDD;
+}
+
+.tbyearview {
+    border: 1px solid #DDDDDD;
+    background-color: White;
+}
+
+.tbdayview {
+    border: 1px solid #DDDDDD;
+    background-color: White;
+}

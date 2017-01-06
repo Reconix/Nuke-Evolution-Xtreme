@@ -1,0 +1,868 @@
+/* EvoXtreme Stylesheet */
+
+body {
+	background: #d9d9d9;
+	color: #000000;
+	font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+	font-size: 11px;
+	margin: 0;
+	padding: 0;
+}
+
+a:link, a:active, a:visited {
+	color: #256a8e;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #359cd2;
+}
+
+#big-wrap {
+	margin: 0 auto;
+	border-left: #2d526f 1px solid;
+	border-right: #2d526f 1px solid;
+	min-width: 990px;
+}
+
+/************************************************************
+  Header CSS Start
+ ************************************************************/
+#header-wrap {
+	background: url('../images/hd_stretch.png') repeat-x;
+	height: 143px;
+}
+
+span#header-logo {
+	background: url('../images/logo.png') no-repeat;
+	width: 399px;
+	height: inherit;
+	float: left;
+}
+
+#header-nav {
+	margin-right: 10px;
+	float: right;
+}
+
+#header-nav ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+#header-nav li {
+	cursor: pointer;
+	float: left;
+}
+
+#header-nav li a {
+	background-image: url('../images/nav_button.png');
+	height: 22px;
+	width: 100px;
+	float: left;
+	line-height: 1.6em;
+	font-size: 12px;
+	color: #FFFFFF;
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	outline: 0px;
+}
+
+#header-nav li a:hover {
+	background-image: url('../images/nav_button_hover.png');
+}
+
+/* Hide from IE5-Mac \*/
+#header-nav li a {
+	float: none;
+}
+/* End hide */
+
+#header-nav li.nav-left a {
+	background-image: url('../images/nav_left.png');
+}
+
+#header-nav li.nav-right a {
+	background-image: url('../images/nav_right.png');
+}
+
+#header-nav li.nav-left a:hover {
+	background-image: url('../images/nav_left_hover.png');
+}
+
+#header-nav li.nav-right a:hover {
+	background-image: url('../images/nav_right_hover.png');
+}
+
+#header-ads {
+	float: right;
+	clear: right;
+	width: 468px;
+	height: 60px;
+	margin-top: 35px;
+	margin-right: 25px;
+}
+
+/************************************************************
+  Post Header CSS Start
+ ************************************************************/
+#post-header-wrap {
+	background: url('../images/post_header.png') repeat-x;
+	height: 124px;
+}
+
+#welcome-wrap {
+	width: 262px;
+	float: left;
+	position: relative;
+	margin-top: 11px;
+}
+
+#welcome-wrap #welcome-top {
+	background-image: url('../images/welcome.gif');
+	width: inherit;
+	height: 37px;
+}
+
+#welcome-wrap #welcome-body {
+	background-image: url('../images/welcome_box.gif');
+	width: inherit;
+	height: 52px;
+}
+
+#welcome-wrap #welcome-body > div {
+	padding: 2px 20px 0px 20px;
+}
+
+#welcome-wrap #welcome-bottom {
+	background-image: url('../images/welcome_btm.gif');
+	width: inherit;
+	height: 16px;
+}
+
+#download-wrap {
+	float: right;
+	width: 286px;
+	margin-top: 18px;
+}
+
+#download-wrap #download-top {
+	background-image: url('../images/hdmessage.gif');
+	width: inherit;
+	height: 28px;
+}
+
+#download-wrap #download-body {
+	background: transparent;
+	width: inherit;
+	height: 50px;
+	white-space: normal;
+	text-align: center;
+	padding-top: 5px;
+}
+
+/************************************************************
+  Body CSS Start
+ ************************************************************/
+#body-wrap {
+	background-color: #f8f7f7;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+#blocks-left-wrap {
+	width: 195px;
+	float: left;
+}
+
+#blocks-right-wrap {
+	width: 195px;
+	float: right;
+}
+
+#center-wrap {
+	margin-left: 195px;
+	margin-right: 195px;
+}
+
+#center-wrap-left {
+	margin-left: 195px;
+}
+
+#center-wrap-right {
+	margin-right: 195px;
+}
+
+#center-wrap-full {
+	width: inherit;
+}
+
+/************************************************************
+  Blocks CSS Start
+ ************************************************************/
+div.blocks-title {
+	background-image: url('../images/blocks_01.gif');
+	width: inherit;
+	height: 47px;
+	line-height: 4.5em;
+	font-weight: bold;
+	text-align: center;
+}
+
+div.blocks-body {
+	background: url('../images/blocks_02.gif') repeat-y;
+	padding: 2px 15px;
+	text-align: left;
+}
+
+div.blocks-footer {
+	background-image: url('../images/blocks_03.gif');
+	width: inherit;
+	height: 16px;
+}
+
+/************************************************************
+  Tables CSS Start
+ ************************************************************/
+div.tables-wrap {
+	width: auto;
+	height: auto;
+}
+
+div.tables-wrap div.tables-hd {
+	background: url('../images/tables_02.gif') repeat-x;
+	width: auto;
+	height: 22px;
+	position: relative;
+}
+
+div.tables-hd span.tables-hd-left {
+	background-image: url('../images/tables_01.gif');
+	width: 38px;
+	height: inherit;
+	float: left;
+}
+
+div.tables-hd span.tables-hd-right {
+	background-image: url('../images/tables_03.gif');
+	width: 38px;
+	height: inherit;
+	float: right;
+}
+
+div.tables-wrap div.tables-body {
+	background-color: #f8f7f7;
+	width: auto;
+	height: auto;
+	position: relative;
+}
+
+div.tables-body span.tables-body-left {
+	background: url('../images/tables_04.gif') repeat-y;
+	width: 17px;
+	height: 100%;
+	position: absolute;
+	left: 0;
+}
+
+div.tables-body div.tables-body-content {
+	margin: 0 17px;
+	text-align: left;
+	overflow: hidden;
+}
+
+div.tables-body span.tables-body-right {
+	background: url('../images/tables_06.gif') repeat-y;
+	width: 17px;
+	height: 100%;
+	position: absolute;
+	right: 0;
+}
+
+div.tables-wrap div.tables-ft {
+	background: url('../images/tables_08.gif') repeat-x;
+	width: auto;
+	height: 22px;
+	position: relative;
+}
+
+div.tables-ft span.tables-ft-left {
+	background-image: url('../images/tables_07.gif');
+	width: 38px;
+	height: inherit;
+	float: left;
+}
+
+div.tables-ft span.tables-ft-right {
+	background-image: url('../images/tables_09.gif');
+	width: 38px;
+	height: inherit;
+	float: right;
+}
+
+/************************************************************
+  News CSS Start
+ ************************************************************/
+div.news-wrap {
+	width: auto;
+	height: auto;
+}
+
+div.news-wrap div.news-hd {
+	background: url('../images/news_02.gif') repeat-x;
+	width: auto;
+	height: 47px;
+	position: relative;
+}
+
+div.news-hd span.news-hd-left {
+	background-image: url('../images/news_01.gif');
+	width: 60px;
+	height: inherit;
+	float: left;
+}
+
+div.news-hd span.news-hd-right {
+	background-image: url('../images/news_03.gif');
+	width: 44px;
+	height: inherit;
+	float: right;
+}
+
+div.news-hd div.news-hd-title {
+	color: #000000;
+	line-height: 4.5em;
+	font-weight: bold;
+	padding-left: 5px;
+}
+
+div.news-wrap div.news-body {
+	background-color: #f8f7f7;
+	width: auto;
+	height: auto;
+	position: relative;
+}
+
+div.news-body span.news-body-left {
+	background: url('../images/news_04.gif') repeat-y;
+	width: 16px;
+	height: 100%;
+	position: absolute;
+	left: 0;
+}
+
+div.news-body div.news-body-content {
+	margin: 0 16px;
+	text-align: left;
+	overflow: hidden;
+}
+
+div.news-body span.news-body-right {
+	background: url('../images/news_06.gif') repeat-y;
+	width: 16px;
+	height: 100%;
+	position: absolute;
+	right: 0;
+}
+
+div.news-wrap div.news-ft {
+	background: url('../images/news_08.gif') repeat-x;
+	width: auto;
+	height: 29px;
+	position: relative;
+}
+
+div.news-ft span.news-ft-left {
+	background-image: url('../images/news_07.gif');
+	width: 44px;
+	height: inherit;
+	float: left;
+}
+
+div.news-ft span.news-ft-right {
+	background-image: url('../images/news_09.gif');
+	width: 44px;
+	height: inherit;
+	float: right;
+}
+
+/************************************************************
+  Footer CSS Start
+ ************************************************************/
+#footer-wrap {
+	height: auto;
+	width: 100%;
+}
+
+#footer-wrap div#footer-top {
+	background: url('../images/footer-top-bg.gif') repeat-x;
+	width: inherit;
+	height: 15px;
+}
+
+#footer-wrap div#footer-copyrights {
+	background: url('../images/footer-main-bg.gif') repeat;
+	width: auto;
+	text-align: center;
+	padding: 2px 10px 0 10px;
+	color: #ffffff;
+	min-height: 100px;
+	max-height: 300px;
+}
+
+div#footer-copyrights a:link    { color: #359cd2; }
+div#footer-copyrights a:active  { color: #359cd2; }
+div#footer-copyrights a:visited { color: #359cd2; }
+div#footer-copyrights a:hover   { text-decoration: underline; }
+
+#footer-wrap div#footer-bottom {
+	background: transparent url('../images/footer-bottom-bg.gif') repeat-x;
+	width: inherit;
+	height: 21px;
+}
+
+#footer-bottom > div {
+	background: url('../images/copyright.png') repeat;
+	cursor: pointer;
+	width: 368px;
+	height: 5px;
+	position: relative;
+	top: 11px;
+	left: 5px;
+}
+
+/************************************************************
+  Reset CSS Start
+ ************************************************************/
+img { border: 0px; }
+
+textarea {
+	color: #000000;
+	font-size: 11px;
+	background-color : #ffffff;
+	border: #cccccc 1px solid;
+}
+
+p {
+	color: #000000;
+	font-size: 11px;
+	text-decoration: none;
+	padding-bottom: 5px;
+}
+
+/* Changes colors for: Main Menu Block, Table Box, Story Box */
+table {
+	color: #000000;
+	font-size: 11px;
+	text-decoration: none;
+}
+
+/* Changes color for: Story Box - Post By Line */
+td.content {
+	color: #000000;
+	font-size: 11px;
+	text-decoration: none;
+}
+
+td.extra {
+	border-top: #131313 0px solid; 
+	border-bottom: #898989 0px solid; 
+	border-left: #131313 0px solid; 
+	border-right: #898989 0px solid;
+}
+
+hr {
+	text-align: left;
+	background-color: #cccccc;
+	height: 1px;
+	width: 100%;
+	border: 0;
+	margin: 5px 0;
+}
+
+ul {
+	list-style-type: square;
+	padding-bottom: 5px;
+}
+
+.left    { text-align: left; }
+.center  { text-align: center; }
+.justify { text-align: justify; }
+.right   { text-align: right; }
+
+h1 {
+	letter-spacing: 2px;
+	font-size: 13px;
+	text-align: center;
+	padding-bottom: 5px;
+}
+
+.heading {
+	font-weight: bold; 
+	font-size: 11px; 
+	color: #ffffff; 
+	font-family: tahoma; 
+	letter-spacing: 0px; 
+	text-decoration: none;
+}
+
+.heading1 {
+	font-weight: bold; 
+	font-size: 11px; 
+	color: #ffffff; 
+	font-family: tahoma; 
+	letter-spacing: 0px; 
+	text-decoration: none;
+}
+
+.blocktitle {
+	font-weight: bold; 
+	font-size: 11px; 
+	color: #000000; 
+	font-family: arial; 
+	letter-spacing: 0px; 
+	text-decoration: none;
+}
+
+.storytitle {
+	font-weight: bold; 
+	font-size: 11px; 
+	color: #000000; 
+	font-family: arial; 
+	letter-spacing: 0px; 
+	text-decoration: none;
+}
+
+select {
+	color: #000000;
+	font-size: 11px;
+	background-color : #ffffff;
+	border: #cccccc 1px solid;
+}
+
+/* Copyright and bottom info */
+.copyright          { font-size: 10px; font-family: Verdana, Arial, Helvetica, sans-serif; color: #000000; }
+a.copyright         { font-size: 10px; color: #ffffff; text-decoration: none; font-family: Verdana, Arial, Helvetica, sans-serif; }
+a.copyright:link    { font-size: 10px; color: #000000; text-decoration: none; font-family: Verdana, Arial, Helvetica, sans-serif; }
+a.copyright:active  { font-size: 10px; color: #000000; text-decoration: none; font-family: Verdana, Arial, Helvetica, sans-serif; }
+a.copyright:visited { font-size: 10px; color: #000000; text-decoration: none; font-family: Verdana, Arial, Helvetica, sans-serif; }
+
+input {
+	color: #000000;
+	font-size: 11px;
+	background-color : #ffffff;
+	border: #cccccc 1px solid;
+}
+
+input.noborder {
+	color: #ffffff;
+	font: 11px arial,helvetica,sans-serif;
+	border-top: #ffffff 0px solid; 
+	border-bottom: #ffffff 0px solid; 
+	border-left: #ffffff 0px solid; 
+	border-right: #ffffff 0px solid;
+}
+
+/* This is the border line & background colour round the entire page */
+.bodyline { 
+	background-color: #5c5c5c; 
+	border:0px solid; 
+	border-color:#000000;
+}
+
+.tablein {
+	border-top: #4f4f4f 1px solid; 
+	border-bottom: #898989 1px solid; 
+	border-left: #4f4f4f 1px solid; 
+	border-right: #898989 1px solid;
+}
+
+/* This is the outline round the main forum tables */
+.forumline { 
+	background: #BEBEBE;
+	border: #cccccc 0px solid;
+}
+
+.forumline2	{ 
+	height: 25px;
+	background: #BEBEBE;
+	border: #cccccc 1px solid;
+}
+
+/* Main table cell colours and backgrounds */
+td.row1 {
+	background: #E0E0E0;
+	border-style: solid;
+	border-color: #FFFFFF;
+	border-width: 1px 1px 0px;
+	height: 28px;
+	padding: 4px;
+}
+
+td.row1pic {
+	height: 24px;
+	color: #000000; 
+	background: #cccccc url(../images/bar2.gif);
+	border: #cccccc 1px solid;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-bottom: 2px;
+}
+
+td.attachheader {
+	height: 25px;
+	font-size: 11px;
+	font-weight: normal;
+	border-color: #000000;
+	background-color: #eaebeb;
+
+}
+
+td.row2 {
+	background-color : #E0E0E0;
+	padding: 4px;
+	font-size: 10px;
+	border-color: #ffffff;
+	border-style: solid;
+	border-width: 1px 1px 0 1px;
+
+}
+
+td.row3 {
+	background-color: #eaeaea;
+	padding: 4px;
+	font-size: 10px;
+	border-color: #ffffff;
+	border-style: solid;
+	border-width: 1px 1px 1px 1px;
+
+}
+
+/* Category Row Right */
+td.rowpic {
+	color: #000000;
+	background: #292929;
+	border: #cccccc 1px solid;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-bottom: 2px;
+}
+
+/* Recent Topics Row*/
+th {
+	height: 25px;
+	color: #444444;
+	border-color: #ffffff;
+	border-style: solid;
+	font-size: 10px;
+	background-color: #f0f0f0;
+	white-space: nowrap;
+	border-width: 1px 1px 0 1px;
+	text-align: center;
+}
+
+th.bar {
+	background: #cccccc;
+	border: #cccccc 1px solid;
+	color: #000000; 
+	font-size: 11px; 
+	font-weight : bold;
+	height: 24px;
+	text-align: center;
+}
+
+/* Category Row Left */
+td.cat, td.catHead, td.catSides, td.catLeft, td.catRight, td.catBottom {
+	height: 25px;
+	padding: 4px;
+	color: #444444;
+	border-color: #ffffff;
+	border-style: solid;
+	font-size: 10px;
+	background-color: #f0efef;
+	white-space: nowrap;
+	border-width: 1px 1px 0 1px;
+
+}
+
+td.cat, td.catHead, td.catBottom {
+	height: 25px;
+	color: #444444;
+	border-color: #ffffff;
+	border-style: solid;
+	font-size: 10px;
+	background-color: #f0efef;
+	white-space: nowrap;
+	border-width: 1px 1px 0 1px;
+}
+
+/*
+  Setting additional nice inner borders for the main table cells.
+  The names indicate which sides the border will be on.
+  Don't worry if you don't understand this, just ignore it :-)
+*/
+
+/* Recent Topics, Row1, Viewforum_Body.tpl */
+th.thHead, th.thSides, th.thTop, th.thLeft, th.thRight, th.thBottom, th.thCornerL, th.thCornerR {
+	height: 25px;
+	color: #444444;
+	border-color: #ffffff;
+	border-style: solid;
+	font-size: 10px;
+	background-color: #f0f0f0;
+	white-space: nowrap;
+	border-width: 1px 1px 0 1px;
+}
+
+/* Forum_Body.tpl - Last Column */
+td.row3Right, td.spaceRow {
+	height: 25px;
+	color: #444444;
+	border-color: #ffffff;
+	border-style: solid;
+	font-size: 10px;
+	background-color: #f0f0f0;
+	white-space: nowrap;
+	border-width: 1px 1px 0 1px;
+}
+
+/* The largest text used in the index page title and toptic title etc. */
+.maintitle, h1, h2	{
+	font-weight: bold;
+	font-size: 18px;
+	text-decoration: none;
+	line-height: 120%;
+	color: #000000;
+}
+
+a.maintitle:link    { text-decoration: none; color : #000000; font-size: 18px; }
+a.maintitle:visited { text-decoration: none; color : #000000; font-size: 18px; }
+a.maintitle:hover	{ text-decoration: NONE; color : #000000; font-size: 18px; }
+
+/* General text */
+.gen { font-size : 11px; color : #000000; }
+.genmed { font-size : 11px; }
+.gensmall { font-size : 10px; }
+.gen,.genmed,.gensmall { color : #000000; }
+a.gen,a.genmed,a.gensmall { background: transparent; color: #000000; text-decoration: none; }
+a.gen:hover,a.genmed:hover,a.gensmall:hover { color: #6a0000; text-decoration: none; }
+
+/* The register, login, search etc links at the top of the page */
+.mainmenu		 { font-size : 11px; color : #000000; }
+a.mainmenu		 { text-decoration: none; color : #000000; }
+a.mainmenu:hover { text-decoration: none; color : #bbbbbb; }
+
+/* Forum Category Titles */
+.cattitle		 { font-weight: bold; font-size: 11px ; letter-spacing: 0px; color : #000000; }
+a.cattitle		 { text-decoration: none; color : #444444; }
+a.cattitle:hover { text-decoration: none; color: #f29702; }
+
+/* Forum title: Text and link to the forums used in: index.php */
+.forumlink		  { font-weight: bold; font-size: 11px; color : #000000; }
+a.forumlink 	  { text-decoration: none; color : #000000; }
+a.forumlink:hover { text-decoration: none; color : #6a0000; }
+
+/* Used for the navigation text, (Page 1,2,3 etc) and the navigation bar when in a forum */
+.nav		{ font-weight: bold; font-size: 11px; color: #000000;}
+a.nav		{ text-decoration: none; color: #000000; }
+a.nav:hover { text-decoration: none; color: #000000; }
+
+/* titles for the topics: could specify viewed link colour too */
+.topictitle          { font-weight: bold; font-size: 11px; color: #000000; }
+a.topictitle:link    { text-decoration: none; color: #000000; }
+a.topictitle:visited { text-decoration: none; color : #000000; }
+a.topictitle:hover   { text-decoration: none; color: #6a0000; }
+
+/* Name of poster in viewmsg.php and viewtopic.php and other places */
+.name { font-size: 11px; color: #000000;}
+
+/* Location, number of posts, post date etc */
+.postdetails { font-size: 10px; color: #000000; }
+
+/* The content of the posts (body of text) */
+.postbody          { font-size : 11px; color : #000000; }
+a.postlink:link	   { text-decoration: none; color : #3990AE; }
+a.postlink:visited { text-decoration: none; color : #6a0000; }
+a.postlink:hover   { text-decoration: underline; color : #6a0000; }
+
+.quote {
+	background: #ebeadd;
+	border: 1px solid #dbdbdb;
+	font-size: 0.95em;
+	margin: 0.5em 1px 0 25px;
+	overflow: hidden;
+	padding: 5px;
+}
+
+.code {
+	margin: 10px 5px 0 5px;
+	padding: 4px;
+	border-width: 1px 1px 0 1px;
+	border-style: solid;
+	border-color: #e0e0e0;
+	color: black;
+	background-color: #ebeadd;
+	white-space: normal;
+}
+
+input.sub {
+	color: #000000;
+	font-size: 11px;
+	background-color : #ffffff;
+	border: #cccccc 1px solid;
+}
+
+/* The buttons used for bbCode styling in message post */
+input.button {
+	color: #000000;
+	font-size: 11px;
+	background-color : #ffffff;
+	border: #cccccc 1px solid;
+}
+
+/* The main submit, go and preview buttons */
+input.mainoption {
+	color: #000000;
+	font-size: 11px;
+	font-weight: normal;
+	border-right: 1px solid #A9B8C2;
+	border-top: 1px solid #ffffff;
+	border-bottom: 1px solid #A9B8C2;
+	border-left: 1px solid #ffffff;
+	background: #f0f0f0;
+}
+
+/* None-bold submit, go and preview buttons */
+input.liteoption {
+	color: #000000;
+	font-size: 11px;
+	font-weight: normal;
+	border-right: 1px solid #A9B8C2;
+	border-top: 1px solid #ffffff;
+	border-bottom: 1px solid #A9B8C2;
+	border-left: 1px solid #ffffff;
+	background: #eeeeee;
+
+}
+
+/* This is the line in the posting page which shows the rollover
+  help line. This is actually a text box, but if set to be the same
+  colour as the background no one will know ;)*/
+.helpline {
+	background-color : #eeeeee;
+	border: 1px solid #eeeeee;
+	font-size: 11px;
+	color: #000000;
+	width: 99%;
+}
+
+.ecwid a, .ecwid a:active, .ecwid a:visited {
+    font: normal 16px tahoma, geneva, verdana, sans-serif;
+    color: #2583ad;
+    background-color: transparent;
+    text-decoration: underline;
+    cursor: pointer;
+}
